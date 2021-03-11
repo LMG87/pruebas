@@ -1,0 +1,303 @@
+/* Form css*/
+.um-button-row {
+	border-top:1px solid #d3d3d3;
+	margin:-1px 0 0; 
+	padding:16px 0;
+	text-align:left;
+	border-radius:0 0 4px 4px;
+}
+.um-button-row .submit {
+	display:inline-block;
+}
+form .required:after {
+    color:#EE3322;
+    content:"*";
+    display:inline;
+}
+form .error-message {
+	color:#9E2424;
+}
+
+/* search form css */
+.usermgmtSearchForm {
+	border-bottom:1px solid #BFBFBF;
+}
+.usermgmtSearchForm form {
+	margin:0px;
+}
+.usermgmtSearchForm .searchTitle {
+	color:#003D4C;
+	font-size:15px;
+	padding:5px 5px 0 10px;
+	font-weight:bold;
+}
+.usermgmtSearchForm .searchBlock {
+	display:inline-block;
+	margin-top:10px;
+	margin-bottom:5px;
+}
+.usermgmtSearchForm .searchLabel {
+	float:left;
+	width:auto;
+	padding:5px 0 5px 10px;
+}
+.usermgmtSearchForm .searchLabel label {
+	font-size:12px;
+	font-weight:bold;
+}
+.usermgmtSearchForm .searchLabelImage {
+	
+}
+.usermgmtSearchForm .searchLoadingImage {
+	position:absolute;
+	margin-left:-25px;
+	margin-top:4px;
+	display:none;
+}
+.usermgmtSearchForm .searchField {
+	float:left;
+	width:auto;
+	padding:0 0 5px 10px;
+}
+.usermgmtSearchForm .searchTagline {
+	font-style:italic;
+	margin-top:28px;
+	position:absolute;
+	font-size:11px;
+}
+.usermgmtSearchForm .searchField .input.text .form-control {
+	display:inline-block;
+	padding:0 5px;
+	height:30px;
+}
+.usermgmtSearchForm .searchField .input.select .form-control {
+	display:inline-block;
+	padding:0 5px;
+	height:30px;
+}
+.usermgmtSearchForm .searchField .input.checkbox {
+	margin: 0;
+	width: 20px;
+}
+.usermgmtSearchForm .searchField .input.checkbox .form-control {
+	display: inline-block;
+    height: auto;
+    margin: 0;
+    position: relative;
+    vertical-align: bottom;
+	box-shadow: none;
+}
+.usermgmtSearchForm .searchSubmit {
+	float:right;
+	padding:0 10px 5px;
+	margin-top:10px;
+}
+.usermgmtSearchForm .searchSubmit .searchBtn {
+	display:inline-block;
+	margin-left:10px;
+	vertical-align: text-top;
+}
+.usermgmtSearchForm .searchSubmit .searchBtn .input.select select {
+	height:33px;
+	margin:0;
+	padding-left:5px;
+    padding-right:0;
+}
+.loadning-indicator {
+	min-height:30px;
+	background:url("../img/loading-indicator.gif") no-repeat;
+	background-position:50% 25%;
+}
+/* Provider box css */
+.providerBox {
+	background-color:#FFFFFF;
+	border:1px solid #CCCCCC;
+	height:auto;
+	padding:5px;
+	border-radius:4px;
+	margin:5px;
+	text-align: center;
+}
+.providerBox .sign_with {
+	font-size:20px;
+	font-weight:normal;
+}
+.providerBox ul.providers {
+	list-style-type:none;
+	margin: 10px 0 0;
+	padding:0;
+}
+.providerBox ul.providers li {
+	height:50px;
+	margin:0 10px 10px 0;
+	padding:0;
+	width:150px;
+	display:inline-block;
+}
+.providerBox ul.providers li {
+	cursor:pointer;
+	background:url("../img/umpremim_login.png") no-repeat scroll 0 0 transparent;
+}
+.providerBox ul.providers li#yahoo {
+	background-position:0 -550px;
+}
+.providerBox ul.providers li#yahoo:hover {
+	background-position:-150px -550px;
+}
+.providerBox ul.providers li#google {
+	background-position:0 -100px;
+}
+.providerBox ul.providers li#google:hover {
+	background-position:-150px -100px;
+}
+.providerBox ul.providers li#linkedin {
+	background-position:0 -150px;
+}
+.providerBox ul.providers li#linkedin:hover {
+	background-position:-150px -150px;
+}
+.providerBox ul.providers li#facebook {
+	background-position:0 -50px;
+}
+.providerBox ul.providers li#facebook:hover {
+	background-position:-150px -50px;
+}
+.providerBox ul.providers li#twitter {
+	background-position:0 -450px;
+}
+.providerBox ul.providers li#twitter:hover {
+	background-position:-150px -450px;
+}
+.providerBox ul.providers li#foursquare {
+	background-position:0 -400px;
+}
+.providerBox ul.providers li#foursquare:hover {
+	background-position:-150px -400px;
+}
+
+/* flash messages css */
+.messageHolder .info, .messageHolder .success, .messageHolder .warning, .messageHolder .error, .messageHolder .validation {
+	border:1px solid;
+	margin:10px;
+	padding:15px 30px 15px 50px;
+	background-repeat:no-repeat;
+	background-position:10px center;
+	border-radius:3px;
+	position:relative;
+}
+.messageHolder .info {
+	color:#00529B;
+	background-color:#BDE5F8;
+	background-image:url("../img/info.png");
+}
+.messageHolder .success {
+	color:#4F8A10;
+	background-color:#DFF2BF;
+	background-image:url("../img/success.png");
+}
+.messageHolder .warning {
+	color:#9F6000;
+	background-color:#FEEFB3;
+	background-image:url("../img/warning.png");
+}
+.messageHolder .error {
+	color:#D8000C;
+	background-color:#FFBABA;
+	background-image:url("../img/error.png");
+}
+.messageHolder .closeMsg {
+	position:absolute;
+	right:5px;
+	top:10px;
+}
+.messageHolder .closeMsgAjax {
+	position:absolute;
+	right:5px;
+	top:10px;
+}
+/* miscellaneous css */
+.profile img {
+	border:1px solid #DFDCDC;
+	display:block;
+	margin:0;
+	padding:5px;
+	width:100%;
+	max-width:200px;
+}
+.table-hover tbody tr:hover > td, .table-hover tbody tr:hover > th {
+  background-color:#FFFFCC;
+}
+table th a.asc:after {
+	content:' ⇣';
+}
+table th a.desc:after {
+	content:' ⇡';
+}
+table td .btn-group .dropdown-toggle {
+	#margin-bottom:0;
+}
+table td .btn-group .dropdown-menu {
+    #left:auto;
+    #right:0;
+}
+.ui-timepicker-select {
+	width:auto;
+}
+.per_header {
+	height:60px;
+	vertical-align:bottom !important;
+}
+.break-word {
+    display:inline-block;
+    word-wrap:break-word;
+}
+#footer {
+	background-color:#f5f5f5;
+	padding:15px 0 5px;
+	text-align:center;
+}
+.submit-indicator {
+	width:20px;
+	height:20px;
+	background:url("../img/loading-circle.gif") no-repeat;
+	display:inline-block;
+	vertical-align:middle;
+}
+.chosen-container-multi .chosen-choices li.search-field input[type="text"] {
+	height:30px !important;
+}
+.form-horizontal .control-label {
+    #text-align:right;
+	#padding-left:0;
+}
+.radio label, .checkbox label {
+	#margin-right:10px;
+}
+table tr.error td {
+	background: none repeat scroll 0 0 #FFBABA !important;
+}
+#editSettingForm .radioValue .radio label {
+	display:block;
+}
+.setting-options {
+	list-style: none;
+	padding: 0;
+	margin:0;
+}
+.setting-options:after {
+	clear:both;
+	content:' ';
+	display:block;
+}
+.setting-options li {
+	float: left;
+    margin-bottom: 10px;
+    margin-right: 15px;
+}
+.setting-options li label {
+	font-weight: normal;
+}
+.setting-options li label input {
+	margin-right: 5px;
+    margin-top: 0;
+}
